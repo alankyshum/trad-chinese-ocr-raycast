@@ -27,6 +27,128 @@
       "description": "Get it free from https://ocr.space/ocrapi",
       "type": "password",
       "required": true
+    },
+    {
+      "name": "primaryLang",
+      "title": "Primary Language",
+      "description": "The primary language you use for OCR, default is Chinese Simplified",
+      "type": "dropdown",
+      "required": false,
+      "default": "cht",
+      "data": [
+        {
+          "value": "ara",
+          "title": "Arabic"
+        },
+        {
+          "value": "bul",
+          "title": "Bulgarian"
+        },
+        {
+          "value": "chs",
+          "title": "Chinese(Simplified)"
+        },
+        {
+          "value": "cht",
+          "title": "Chinese(Traditional)"
+        },
+        {
+          "value": "hrv",
+          "title": "Croatian"
+        },
+        {
+          "value": "cze",
+          "title": "Czech"
+        },
+        {
+          "value": "dan",
+          "title": "Danish"
+        },
+        {
+          "value": "dut",
+          "title": "Dutch"
+        },
+        {
+          "value": "eng",
+          "title": "English"
+        },
+        {
+          "value": "fin",
+          "title": "Finnish"
+        },
+        {
+          "value": "fre",
+          "title": "French"
+        },
+        {
+          "value": "ger",
+          "title": "German"
+        },
+        {
+          "value": "gre",
+          "title": "Greek"
+        },
+        {
+          "value": "hun",
+          "title": "Hungarian"
+        },
+        {
+          "value": "kor",
+          "title": "Korean"
+        },
+        {
+          "value": "ita",
+          "title": "Italian"
+        },
+        {
+          "value": "jpn",
+          "title": "Japanese"
+        },
+        {
+          "value": "pol",
+          "title": "Polish"
+        },
+        {
+          "value": "por",
+          "title": "Portuguese"
+        },
+        {
+          "value": "rus",
+          "title": "Russian"
+        },
+        {
+          "value": "slv",
+          "title": "Slovenian"
+        },
+        {
+          "value": "spa",
+          "title": "Spanish"
+        },
+        {
+          "value": "swe",
+          "title": "Swedish"
+        },
+        {
+          "value": "tha",
+          "title": "Thai"
+        },
+        {
+          "value": "tur",
+          "title": "Turkish"
+        },
+        {
+          "value": "ukr",
+          "title": "Ukrainian"
+        },
+        {
+          "value": "vnm",
+          "title": "Vietnamese"
+        },
+        {
+          "value": "auto",
+          "title": "AUTODETECTLANGUAGE"
+        }
+      ]
     }
   ],
   "dependencies": {
