@@ -22,7 +22,7 @@ export default async function Command() {
     const form = new FormData();
     form.append("file", fs.createReadStream(TEMP_FILE));
     form.append("apikey", apiKey);
-    // form.append("language", "cht"); // Traditional Chinese
+    form.append("language", preferences.primaryLang); // Traditional Chinese
     form.append("isOverlayRequired", "false");
     form.append("detectOrientation", "true");
 
